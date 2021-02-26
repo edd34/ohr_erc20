@@ -1,5 +1,5 @@
-const OhreeeToken = artifacts.require("OhreeeToken");
+const OHRToken = artifacts.require("OHRToken");
 
 module.exports = function (deployer) {
-  deployer.deploy(OhreeeToken);
+  deployer.deploy(OHRToken, 1000);
 };
